@@ -1,20 +1,20 @@
 obj/local/armeabi-v7a/objs/HelloworldAndroidNDK/HelloworldAndroidNDK.o: \
- jni/HelloworldAndroidNDK.cpp \
- J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/string.h \
- J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
- J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
- J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/android/api-level.h \
- J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/malloc.h \
- J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/jni.h
+ jni/HelloworldAndroidNDK.c \
+ D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/string.h \
+ D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/sys/cdefs.h \
+ D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/sys/cdefs_elf.h \
+ D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/android/api-level.h \
+ D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/malloc.h \
+ D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/jni.h
 
-J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/string.h:
+D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/string.h:
 
-J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/cdefs.h:
+D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/sys/cdefs.h:
 
-J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h:
+D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/sys/cdefs_elf.h:
 
-J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/android/api-level.h:
+D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/android/api-level.h:
 
-J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/malloc.h:
+D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/malloc.h:
 
-J:/work/tool/sdk/android-ndk/android-ndk-r9/platforms/android-8/arch-arm/usr/include/jni.h:
+D:/SOFTWARE/WORK/NDK/android-ndk-r10/platforms/android-L/arch-arm/usr/include/jni.h:

@@ -2,7 +2,8 @@ package com.example.helloworldandroidndk;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -10,21 +11,13 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		// helloLog("This will log to LogCat via the native call.");
-		System.out.println(stringTestNdk());
-		// System.out.println("XXXX");
 	}
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
+	public void onClick(View view) {
+		Toast.makeText(this, this.stringTestNdk(), Toast.LENGTH_SHORT).show();
 	}
 
 	public native String stringTestNdk();
-
-	public native String stringTestNdk2();
 
 	static {
 		System.loadLibrary("HelloworldAndroidNDK");
